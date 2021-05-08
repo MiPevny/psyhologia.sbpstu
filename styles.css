@@ -1,0 +1,235 @@
+body {
+	background-color: #ADF0AE;
+	background-image: url("../image/background2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;background-attachment: fixed;
+	font-size: 17px;
+	font-family: monospace;
+	color: white;/*#627362*/
+	text-shadow: 0px 0px 5px #031403;
+}
+div {
+	/*border: 0.1px solid white;/**/
+}
+.HeaderNavigation input {
+	font-family: monospace;
+	color: #FFFFFF;/*#627362*/
+	text-shadow: 0px 0px 5px #031403;
+	background-color: #8ef39150;
+	border-radius: 5px 5px 5px 5px;
+	padding: 7px;
+	margin-right: 10px;
+}
+h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+h4 {
+	font-size: 15px;
+	margin: -10px 0px 10px 0px;	
+}
+p {
+	margin: 10px 5px 10px 5px;
+}
+.page {
+	visibility: hidden;
+	height: 600px;
+}
+.HeaderNavigation a:hover {
+	border-bottom: 1px solid white;
+	border-radius: 5px;
+}
+/*======HEADER======*/
+.HeaderNavigation {
+	width: 100%;
+	text-align: right;padding: 5px;
+	position: fixed;top: 0px;
+	/*background-color: white;opacity: 90%;*/
+}
+.HeaderNavigation a:last-child {
+	margin-right: 30px;
+}
+img[src$="logo.png"] {
+	margin: -50px 0px 0px 10px;
+	border: none;
+}
+/*______HEADER END______*/
+#theme {
+	margin-top: 50px;
+	width: 180px;margin-left: 10%;
+	position: relative;
+}
+/*======SIDEBAR======*/
+.LeftSideBar {
+	width: 26%;
+	height: 380px;/*680 was*/
+	/*background-color: white;/*#8ef391 #ADF0AE, #64DE89*/
+	position: absolute;
+	border-radius: 15px 15px 15px 15px;
+	padding: 25px 0px 0px 5px;
+	font-family: cursive;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.menu {
+	width: 85%;
+	height: 20px;padding: 2px 0px 20px 0px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 10px;
+	background-color: #3fea45e0;
+}
+.menuBut {
+	width: 80%;
+	height: 90px;
+	margin: -44px 0px 0px 20%;
+	background-color: #3fea45;
+	border: 1px solid black;
+	position: inherit;
+	z-index: 1;
+	visibility: hidden;
+}
+/*====SLIDERS====*/
+.slides {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 20px;
+	margin-top: 10px;
+	z-index: 0;
+}
+.slide {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: 10s infinite linear slide;
+}
+@keyframes slide {
+ from {
+	top: 0;
+	left: 0;
+ }
+ 12.5% {
+	transform: translate(0px, 0px);
+ }
+ 25% {
+	transform: translate(-210px, 0);
+ }
+ 36% {
+	transform: translate(-210px, 210px);
+ }
+ 37% {
+	transform: translate(210px, 210px);
+ }
+ 87.5% {
+	transform: translate(210px, 0);
+ }
+ to {
+	transform: (0px, 0px);
+ }
+}
+.s1 {
+	animation-delay: 7.5s;
+}
+.s2 {
+	animation-delay: 5s;
+}
+.s3 {
+	animation-delay: 2.5s;
+}
+.s4 {
+	animation-delay: 0s;
+}
+/*____SLIDERS END____*/
+/*______SIDEBAR END______*/
+/*======CONTENT======*/
+.MainContent {
+	width: 70%;
+	border-radius: 15px 15px 15px 15px;
+	padding: 30px;margin: 0px 0px 10px 23%;
+}
+.MainContent div:first-child {
+	height: 70px;padding: 10px;
+	background-image: url(../image/background4.jpg);
+	background-size: auto;
+	background-position: 0px -700px;
+	border-radius: 20px 20px 5px 5px;
+}
+.Content {
+	background-color: #40404090;/*#abf8ae*/
+	border-radius: 5px;
+	padding: 10px;
+}
+/*______CONTENT END______*/
+.PageTeleport button {
+	position: fixed;
+	bottom: 55px;
+	left: 5px;
+	background-image: url('../icons/arrow.png');
+	background-repeat: no-repeat;
+	background-size: 40px;
+	border-radius: 5px 5px 5px 5px;
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+.PageTeleport button:hover { 
+	box-shadow: -1px 0px 5px 1px white;
+}
+#down {
+	bottom: 10px;
+	background-position: 0px -35px;
+}
+/*======FOOTER======*/
+.Footer {
+	width: 95%;
+	height: 100px;
+	background-color: black;
+	padding-left: 5%;
+	font-size: 15px;
+}
+/*______FOOTER END______*/
+.Anketa {
+	width: 90%;
+	border-radius: 15px 15px 15px 15px;
+	padding: 20px;margin: 50px 0px 0px 27%;
+}
+.Anketa input {
+	font-family: monospace;
+	background-color: #8ef39190;
+	border-radius: 5px 5px 5px 5px;
+	padding: 7px;margin-left: 10px;
+	width: 35%;
+	color: #FFFFFF;/*#627362*/
+	text-shadow: 0px 0px 5px #031403;
+}
+input::placeholder {
+	color: #FFFFFF90;/*#627362*/
+	text-shadow: 0px 0px 5px #03140350;
+}
+#ButLog, #ButChange {
+	width: 20.8%;
+}
+#ButReg {
+	width: 18%;
+}
+.reg {
+	width: 190px;
+	height: 20px;
+	margin: -10px 0px 0px 10px;
+	background-color: #FFFFFF;
+}
+
+
+
