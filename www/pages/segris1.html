@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>VISA</title>
+	<style>
+	.inf {
+		width: 400px;
+		height: 500px;
+	}
+	.title {
+		width: 350px;
+		height: 50px;
+		background-color: #174FEE;
+		color: white;
+		margin: -19px 0px 0px 0px;
+		padding-top: 5px;
+	}
+	.background {
+		background-color: #0AA7D1;
+		width: 350px;
+		height: 400px;
+		margin: 0px 0px 0px 0px;
+	}
+	.stroka1 {
+		width: 350px;
+		height: 30px;
+		margin: 0px 0px 0px 0px;
+		}
+	.stroka2 {
+		width: 170px;
+		height: 30px;
+		margin: 0px 0px 0px 0px;
+		display: inline-block;
+	}
+	.card {
+		width: 350px;
+		height: 200px;
+	}
+	.visa_bg {
+		width: 230px;
+		height: 140px;
+		margin: 30px 0px 10px 55px;
+		background-color: #5E0CCA;
+		border-radius: 15px;
+	}
+	.visa_box {
+		width: 61px;
+		height: 38px;
+		background-color: white;
+		color: #5E0CCA;
+		border: 0.5px solid white;
+		margin: 0px 0px 0px 140px;
+	}
+	.min {
+		width: 40px;
+		height: 30px;
+		background-color: #ADADAD;
+		border-radius: 5px;
+		margin: -5px 0px 0px -130px;
+	}
+	.number {
+		width: 200px;
+		height: 30px;
+		margin: 10px 0px 0px -120px;
+		color: white;
+		font-family: courier;
+	}
+	.name {
+		width: 180px;
+		height: 30px;
+		margin: 10px 0px -30px -120px;
+		color: white;
+		font-family: courier;
+	}
+	.name1 {
+		width: 80px;
+		height: 30px;
+		margin: 0px 0px 0px 30px;
+		color: white;
+		font-family: courier;
+		display: inline-block;
+	}
+	.button {
+		width: 350px;
+		height: 30px;
+		background-color: #174FEE;
+		color: white;
+		margin: 0px 0px 0px 0px;
+		padding-top: 15px;
+	}
+	.button:hover{
+		width: 350px;
+		height: 30px;
+		background-color: #0AA7D1;
+		color: white;
+		margin: 0px 0px 0px 0px;
+	}
+	</style>
+</head>
+<body>
+	<form>
+		<div class="inf">
+			<div class="title">
+				<div style="margin: 0px 0px 0px 90px"><h3>Payment Information</h3></div>
+			</div>
+			<div class="background">
+				<div class="stroka1">
+					<input type="text" name="1" placeholder="Streed Address" required="" style="width: 345px;
+			height: 30px;">
+				</div>
+				<div class="stroka2">
+					<input type="text" name="2" placeholder="City" required="" style="width: 171px;
+			height: 30px;">
+				</div>
+				<div class="stroka2">
+					<input type="text" placeholder="ZIP code" style="width: 171px;
+			height: 30px;">
+				</div>
+				<div class="stroka1">
+					<input type="Email" placeholder="Email" required="" style="width: 345px;
+			height: 30px;">
+			</div>
+			<div class="card">
+					<div class="visa_bg">
+						<div class="visa_box">
+							<div class="line" style="height: 11px; width: 60px; background-color: #430594;"></div>
+							<div style="margin-left: 10px;"><small>VISA</small>
+							<div class="line" style="height: 11px; margin-left: -10px; width: 60px; background-color: #EB960F;"></div>
+						</div>
+						<div class="min">
+							<div style="width: 25px; height: 20px; background-color: #C9C9C9; border-radius: 5px;"></div>
+						</div>
+						<div class="number">
+							4048 1234 2562 2222
+						</div>
+						<div class="name">
+							Allie Kingsley
+						</div>
+						<div class="name1">
+							<small>10/16</small>
+						</div>
+					</div>
+				</div>
+				<div class="stroka2">
+					<input type="text" placeholder="Allie" required="" style="width: 170px;
+			height: 30px;">
+				</div>
+				<div class="stroka2">
+					<input type="text" placeholder="Kingsley" required="" style="width: 171px;
+			height: 30px;">
+				</div>
+				<div class="stroka1">
+					<input type="text" placeholder="4048 1234 2562 2222" pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" required=""  style="width: 345px;
+			height: 30px;">
+				</div>
+				<div class="stroka2">
+					<input type="text" placeholder="10/16" pattern="[0-9]{2}/[0-9]{2}" required="" style="width: 170px;
+			height: 30px;">
+				</div>
+				<div class="stroka2">
+					<input type="text" placeholder="222"" pattern="[0-9]{3}" required="" style="width: 171px;
+			height: 30px;">
+				</div>
+				<label for="111"><div class="button">
+					<div class="byter" style="margin: 0px 0px 0px 130px"><big>Submit</big></div>
+				</div></label>
+				<input type="submit" style="display: none;" id="111">
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
