@@ -7,12 +7,13 @@
 <link href="css/styles.css" rel="stylesheet">
 </head>
 <body name="top">
+<div>
 <!--HEADER-->
 <div class="HeaderNavigation">
 	<a href="pages/help.html"><img src="icons/help.png" width="10%" alt="Помощь?"></a><!--1)help.html-->
 	<a href="pages/regisration.html"><img src="icons/login.png" width="15%" alt="Авторизация"></a><!--2)regisration.html-->
 </div>
-<a href="index.html"><img src="icons/logo.png" width="15%" alt="Психология.spbstu"></a>
+<a href="index.html" class="logo"><img src="icons/logo.png" width="15%" alt="Психология.spbstu"></a>
 <!--HEADER END-->
 <!--SIDEBAR-->
 <img src="icons/theme.png" width="20%" alt="Тема сайта" id="theme">
@@ -22,22 +23,22 @@
 	</div>
 	<div class="menuBut" id="menuBut1">
 		<br><a href="../www/index.html"><button id="p3_news">Новости</button></a><!--3)index.html-->
-		<br><a href="../www/pages/"><button id="p4_titles">Статьи</button></a><!--4)titles.html-->
-		<br><a href="../www/pages/"><button id="p5_tests">Тесты</button></a><!--5)tests.html-->
+		<br><a href="../www/pages/titles.html"><button id="p4_titles">Статьи</button></a><!--4)titles.html-->
+		<br><a href="../www/pages/tests.html"><button id="p5_tests">Тесты</button></a><!--5)tests.html-->
 	</div>
 	<div class="menu"  id="menu2">
 		<h3><p>Полезные ресурсы</p></h3>
 	</div>
 	<div class="menuBut" id="menuBut2">
-		<br><a href="../www/pages/" id="p6_books"><button>Книги</button></a><!--6)books.html-->
-		<br><a href="../www/pages/" id="p7_links"><button>Интернет-ресурсы</button></a><!--7)links.html-->
+		<br><a href="../www/pages/books.html" id="p6_books"><button>Книги</button></a><!--6)books.html-->
+		<br><a href="../www/pages/links.html" id="p7_links"><button>Сайты</button></a><!--7)links.html-->
 	</div>
 	<div class="menu"  id="menu3">
 		<h3><p>Другое</p></h3>
 	</div>
 	<div class="menuBut" id="menuBut3">
-		<br><a href="../www/pages/" id="p8_histor"><button>История изменений</button></a><!--8)history.html-->
-		<br><a href="../www/pages/" id="p9_other"><button>Остальные достижения</button></a><!--9)other.html-->
+		<br><a href="../www/pages/history.html" id="p8_histor"><button>История изменений</button></a><!--8)history.html-->
+		<br><a href="../www/pages/other.html" id="p9_other"><button>Достижения</button></a><!--9)other.html-->
 	</div>
 	<div class="slides"><!--Плакаты-->
 		<img src="image/pic1.jpg" class="slide s1">
@@ -47,6 +48,7 @@
 	</div>
 </div>
 <!--SIDEBAR END-->
+<!--div id="nopage"--><!--put on, if no content-->
 <!--CONTENT-->
 <div class="MainContent">
 	<div>
@@ -56,136 +58,38 @@
 	<hr>
 	<div class="Content">
 		<center><h2>~ Новости ~</h2></center>
-		 Вот уже почти столетие, как  мировая психология развивается  в условиях
-кризиса  ее  методологии.  Расколовшись  в  свое  время  на  гуманитарную  и
-естественнонаучную, описательную и  объяснительную, система  психологических
-знаний  дает все новые и  новые трещины, в  которых кажется  исчезающим  сам
-предмет   психологии.   Происходит  его   редукция,   нередко   прикрываемая
-необходимостью   развивать   междисциплинарные   исследования.  Порой   даже
-раздаются голоса, открыто  призывающие  в психологию  "варягов":  "придите и
-княжите  нами".  Парадокс  состоит в  том,  что  вопреки  всем теоретическим
-трудностям  во всем мире  сейчас наблюдается чрезвычайное ускорение развития
-психологических исследований  -  под  прямым давлением требований  жизни.  В
-результате   противоречие   между   громадностью   фактического   материала,
-скрупулезно   накапливаемого    психологией   в    превосходно    оснащенных
-лабораториях,  и  жалким  состоянием  ее  теоретического,  методологического
-фундамента еще более  обострилось. Небрежение и  скепсис  в  отношении общей
-теории  психики, распространение фактологизма и сциентизма, характерные  для
-современной американской  психологии  (и не только для нее!), стали барьером
-на пути исследования капитальных психологических проблем.
+		<h2><<Виртуальная личность подвижного тэтчеризированного лица>></h2>
+		<h3>Психологическая наука и образование 2021 <br>Том. 26, № 1. С. 5–18</h3>
+		<p>Среди психологических проблем поведения человека в виртуальной реальности особое место занимает представление о виртуальной личности и формах ее активности в искусственно созданной среде [9; 10]. Экспериментально эта проблема может решаться как путем погружения испытуемого в VR-среду, так и в более общей форме через изучение свойств индуцированной личности, обладающей «невозможным лицом».</p>
+		<p><a href="../www/pages/document1.pdf">читать...</a></p>
+
+		<hr>
+		<img src="image/img1.jpg">
+		<hr>
+
+		<p>
+			<a href="https://www.youtube.com/watch?v=2gmq7d7q4_I">Общая психология. Психология как наука</a>
+		<video src="video/vid1.mp4" width="100%" controls=""</video>
+		</p>
 	</div>
 </div>
 <!--CONTENT END-->
+<!--/div--><!--for #nopage-->
 <div class="PageTeleport">
 		<a href="#top"><button id="up"></button></a>
 		<a href="#bottom"><button id="down"></button></a>
 </div>
-<div class="page"></div>
 <!--FOOTER-->
+</div>
 <a name="bottom">
 	<div class="Footer">
-		something in the end
+	<p>По всем вопросам: <a href="mailto:pevnyj.ma@edu.spbstu.ru">pevnyj.ma@edu.spbstu.ru</a></p>
+	<p>Весенняя практика УП.04.02. <br> 2021</p>
+	<a href="index.html" class="logo"><img src="icons/logo.png" width="10%" align="right" alt="Психология.spbstu"></a>
+	<a href="https://college.spbstu.ru/" class="logo"><img src="icons/politeh.png" width="10%" align="right" alt="СПБПУ ИСПО">
 	</div>
 </a>
 <!--FOOTER END-->
-<script type="text/javascript">
-	let menu1 = document.getElementById('menu1');
-	let menu2 = document.getElementById('menu2');
-	let menu3 = document.getElementById('menu3');
-
-	/*
-	let page3 = document.getElementById('p3_news');
-	let page4 = document.getElementById('p4_titles');
-	let page5 = document.getElementById('p5_tests');
-	let page6 = document.getElementById('p6_books');
-	let page7 = document.getElementById('p7_links');
-	let page8 = document.getElementById('p8_histor');
-	let page9 = document.getElementById('p9_other');
-	*/
-
-	let menuBut1 = document.getElementById('menuBut1');
-	let menuBut2 = document.getElementById('menuBut2');
-	let menuBut3 = document.getElementById('menuBut3');
-	let butstat1;//\
-	let butstat2;// | статусы для кнопок
-	let butstat3;///
-
-		//onmouseover наводится
-		//mouseenter
-		//onmouseout покидает
-		//mouseleave
-
-		//selected - выбранная страница в навигации(число от обработчика событий), status - запрос обработчика (открыть или закрыть)
-		function Nav (selected, status) {
-			if (status == 'open') {
-				switch (selected) {
-					case 1:
-						menuBut1.style.visibility = 'visible'
-					break;
-					case 2:
-						menuBut2.style.visibility = 'visible'
-					break;
-					case 3:
-						menuBut3.style.visibility = 'visible'
-					break;
-				}
-			} else if (status == 'close') {
-				switch (selected) {
-					case 1:
-						menuBut1.style.visibility = 'hidden'
-					break;
-					case 2:
-						menuBut2.style.visibility = 'hidden'
-					break;
-					case 3:
-						menuBut3.style.visibility = 'hidden'
-					break;
-				}
-			}	
-			return 0;
-		};
-		let o = 'open'
-		let k = 'close'
-		//less symbols and all be OK ;)
-
-		menu1.addEventListener('mouseenter', function(){Nav(1, o)});
-		menu2.addEventListener('mouseenter', function(){Nav(2, o)});
-		menu3.addEventListener('mouseenter', function(){Nav(3, o)});
-		
-		menuBut1.addEventListener('mouseenter', function(){butstat1 = o});
-		menuBut2.addEventListener('mouseenter', function(){butstat2 = o});
-		menuBut3.addEventListener('mouseenter', function(){butstat3 = o});
-
-		menuBut1.addEventListener('mouseleave', function(){
-			Nav(1, k)
-			butstat1 = k
-		});
-		menuBut2.addEventListener('mouseleave', function(){
-			Nav(2, k)
-			butstat2 = k
-		});
-		menuBut3.addEventListener('mouseleave', function(){
-			Nav(3, k)
-			butstat3 = k
-		});
-
-		/*
-		menu1.addEventListener('mouseleave', function(){
-			if (butstat1 != o) {
-				Nav(1, k)
-			}
-		});
-		menu2.addEventListener('mouseleave', function(){
-			if (butstat2 != o) {
-				Nav(2, k)
-			}
-		});
-		menu3.addEventListener('mouseleave', function(){
-			if (butstat3 != o) {
-				Nav(3, k)
-			}
-		});
-		*/
-</script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
